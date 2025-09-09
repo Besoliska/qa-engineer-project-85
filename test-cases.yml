@@ -69,7 +69,7 @@
   prerequisites: |
     Открыт любой другой браузер
   test-data: |
-    Браузер: Opera, Firefox, Google Chrome, Яндекс, Microsoft Edge
+    Браузер Opera, Firefox, Google Chrome, Яндекс, Microsoft Edge
   steps:
     - открыть сайт в другом браузере
     - пройтись по основным страницам и проверить работу функционала сайта
@@ -195,7 +195,7 @@
   steps:
     - нажать на свой никнейм и в сплывающем окне выбрать My Profile
     - просмотреть свой профиль и проверить наличие информации: дата регистрации, rank, elo_rating, games_played, Activity
-    - проверить возможность просматривать вкладки: Statistics и Completed games
+    - проверить возможность просматривать вкладки Statistics и Completed games
   expected-result: |
     Сайт будет корректно загружать таблицу рейтинга
 
@@ -209,7 +209,7 @@
     empty
   steps:
     - нажать на свой никнейм и в сплывающем окне выбрать Settings
-    - проверить возможность сменить: Your name, Your weapon, Your clan, Select sound type, Select sound level
+    - проверить возможность сменить Your name, Your weapon, Your clan, Select sound type, Select sound level
     - проверить возможность синхронизировать Socials
   expected-result: |
     Сайт будет корректно загружать страницу Settings и давать возможность редактировать свой профиль
@@ -240,6 +240,6 @@
   steps:
     - нажать на свой никнейм и в сплывающем окне выбрать Clans
     - проверить возможность просматривать уже созданные кланы
-    - проверить наличие пунктов: name, long_name, creator, actions
+    - проверить наличие пунктов name, long_name, creator, actions
   expected-result: |
     Сайт будет корректно загружать страницу Clans и давать возможность просматривать созданные кланы
